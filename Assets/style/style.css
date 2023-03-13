@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.container nav, nav div{
+    display: flex;
+}
+
+.container nav{
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+li:not(:first-of-type){
+    margin-left: 35px;
+}
+
+li{
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: auto;
+}
