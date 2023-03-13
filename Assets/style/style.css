@@ -5,25 +5,29 @@
     margin-right: 8%;
 }
 
-.container nav, nav div{
+nav, nav div{
     display: flex;
 }
 
-.container nav{
-    justify-content: space-between;
+nav ul, nav div{
+    width: 50%;
 }
 
 nav ul{
     list-style: none;
     display: flex;
+    justify-content: center;
+}
+
+nav div{
+    padding-left: 8%;
 }
 
 li:not(:first-of-type){
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 li{
-    color: white;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -36,3 +40,29 @@ li{
     width: 50%;
     height: auto;
 }
+
+.mleft{
+    margin-left: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* .linkAnimation:hover{
+    background-image: linear-gradient(120deg, #DAE2F8,#D6A4A4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 100%;
+    transition: background-size 0.25s ease-in;
+    animation-name: linkUnderline;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes linkUnderline {
+    0%   {background-size: 100% 0.2em;}
+    50%  {background-size: 100% 88% !important;}
+    100%  {background-size: 100% 0.2em;}
+} */
